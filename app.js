@@ -2,6 +2,7 @@ function searchField() {
     const searchField = document.querySelector('.search-field');
      const searchFieldText = searchField.value;
      loadMeals(searchFieldText);
+     searchField.value = 'Search Your Meal';
 }
 
 const loadMeals = (searchFieldText) =>{
